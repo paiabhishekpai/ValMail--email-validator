@@ -16,6 +16,18 @@ nav{
 
 .logo{
     margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.logo img{
+    filter: invert(1);
+}
+
+.logo span{
+    margin: auto;
 }
 
 nav ul{
@@ -65,6 +77,10 @@ input{
 .submitBtn:hover{
     cursor: pointer;
     background-color: rgb(68, 68, 68);
+}
+
+#ResCont ::first-letter{
+    text-transform: uppercase;
 }
 
 footer{

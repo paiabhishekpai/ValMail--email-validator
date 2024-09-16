@@ -25,11 +25,14 @@
     <main>
 <div class="container">
     <h1>Enter E-Mail to validate</h1>
-    <input type="text" placeholder="Enter Email">
-    <button class="submitBtn">Submit</button>
+    <input id="email" type="text" placeholder="Enter Email"  name="email" required>
+    <button id="submitBtn" class="submitBtn">Submit</button>
 </div>
-<div id="ResCont" class="container">
+<div class="container">
     <h2>Result</h2>
+    <div id="ResCont" class="result">
+
+    </div>
 </div>
     </main>
 
@@ -41,6 +44,6 @@
         </ul>
 
     </footer>
-    <script src="script.jss"></script>
+    <script src="script.js"></script>
 </body>
 </html>
