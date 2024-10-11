@@ -23,7 +23,7 @@ submitBtn.addEventListener("click", async (e) => {
   console.log("clicked");
   ResCont.innerHTML = `<img width="123" src="img/loading.gif" alt="">`
 
-//   API key = ema_live_lpEQqiccdAnusY13zXnAOOzgweGcgSL6vHxUwV3C
+//  
   let email = document.getElementById("email").value;
   console.log(email);
   let url = `https://api.emailvalidation.io/v1/info?apikey=ema_live_lpEQqiccdAnusY13zXnAOOzgweGcgSL6vHxUwV3C&email=${email}`;
